@@ -20,7 +20,7 @@ func main() {
 		log.Fatalf("Read config error: %s", err.Error())
 	}
 
-	port, socksPort := C.DefalutHTTPPort, C.DefalutSOCKSPort
+	port, socksPort := C.DefaultHTTPPort, C.DefaultSOCKSPort
 	section := cfg.Section("General")
 	if key, err := section.GetKey("port"); err == nil {
 		port = key.Value()

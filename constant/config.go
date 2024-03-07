@@ -16,8 +16,8 @@ import (
 
 const (
 	Name             = "clash"
-	DefalutHTTPPort  = "7890"
-	DefalutSOCKSPort = "7891"
+	DefaultHTTPPort  = "7890"
+	DefaultSOCKSPort = "7891"
 )
 
 var (

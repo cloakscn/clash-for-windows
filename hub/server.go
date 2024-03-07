@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Dreamacro/clash/tunnel"
+	"github.com/cloakscn/clash-for-windows/tunnel"
 
 	"github.com/go-chi/chi"
 	"github.com/go-chi/render"

@@ -4,7 +4,7 @@ import (
 	"io"
 	"net"
 
-	C "github.com/Dreamacro/clash/constant"
+	C "github.com/cloakscn/clash-for-windows/constant"
 )
 
 // RejectAdapter is a reject connected adapter
